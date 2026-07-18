@@ -1,0 +1,11 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+#creando una data de respaldo
+data<- read_csv("CICLO 4 CURSOS/SISTEMATIZACION/S2/SEMANA 02 ZORRILLA ASTOCAZA ALAN/s02_treat_artritis (1).csv")
+
+#calculando el promedio de edad
+mean(data,edad)
