@@ -1,0 +1,29 @@
+---
+title: "SEMANA 7"
+author: "ALAN ZORRILLA"
+format: html
+editor: visual
+---
+
+## 
+
+```{r}
+#DATOS
+
+x<-c(4,6,8,10,12)
+
+y<-c(2,3,4,5,7)
+
+#Correlación de pearsson
+
+cor(x,y)
+
+
+#Obtener coeficientes de la regresión
+
+#Modelo
+
+modelo <- lm(y ~ x)
+
+coef(modelo)
+```
