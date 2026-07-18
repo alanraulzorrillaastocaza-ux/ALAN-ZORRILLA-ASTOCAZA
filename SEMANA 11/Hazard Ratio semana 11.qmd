@@ -1,0 +1,55 @@
+---
+title: "semana 11"
+author: "Alan Zorrilla Astocaza Alan"
+format: html
+editor: visual
+---
+
+## 
+
+```{r}
+#Coeficiente beta
+
+beta<--0.405
+
+#Calculo del Hazard ratio HR<-exp(beta)
+
+#mostrar resultado
+HR
+```
+
+```{r}
+#interpretación
+cat("Hazard ratio=",round(HR,3),"\n")
+cat("El programa reduce el riesgo en",round((1-HR)*100,1),"% respecto al grupo de control.")
+```
+
+```{r}
+#Hazar Ratio reportado 
+Hr<-1.80
+
+#Incremento porcentual del riesgo
+incremento<-(HR-1)*100
+
+#Mostrar resultado
+cat("Hazard ratio=",HR,"\n")
+cat("Incremento del riesgo=","Incremento,%\n")
+```
+
+```{r}
+#COEFICIENTE BETA
+beta<--0.693
+
+#CALCULO DEL Hazard ratio
+
+HR<-exp(beta)
+
+#mostrar resultado
+HR
+```
+
+```{r}
+#interpretación
+cat("Hazard ratio=",round(HR,3),"\n")
+cat("El programa reduce el riesgo en",round((1-HR)*100,1),"% respecto al grupo de control.")
+```

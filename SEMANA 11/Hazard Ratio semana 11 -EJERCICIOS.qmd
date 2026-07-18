@@ -1,0 +1,143 @@
+---
+title: "semana 11"
+author: "Alan Zorrilla Astocaza Alan"
+format: html
+editor: visual
+---
+
+## 
+
+```{r}
+#Coeficiente beta
+
+beta<--0.405
+
+#Calculo del Hazard ratio HR<-exp(beta)
+
+#mostrar resultado
+HR
+```
+
+```{r}
+#interpretación
+cat("Hazard ratio=",round(HR,3),"\n")
+cat("El programa reduce el riesgo en",round((1-HR)*100,1),"% respecto al grupo de control.")
+```
+
+```{r}
+#Hazar Ratio reportado 
+Hr<-1.80
+
+#Incremento porcentual del riesgo
+incremento<-(HR-1)*100
+
+#Mostrar resultado
+cat("Hazard ratio=",HR,"\n")
+cat("Incremento del riesgo=","Incremento,%\n")
+```
+
+```{r}
+#COEFICIENTE BETA
+beta<--0.693
+
+#CALCULO DEL Hazard ratio
+
+HR<-exp(beta)
+
+#mostrar resultado
+HR
+```
+
+```{r}
+#interpretación
+cat("Hazard ratio=",round(HR,3),"\n")
+cat("El programa reduce el riesgo en",round((1-HR)*100,1),"% respecto al grupo de control.")
+```
+
+# 
+
+#EJERCICIOS PROPUESTOS
+
+#EJERCICIO 1
+
+```{r}
+#Coeficiente beta
+beta <- 0.405
+
+#Calculo del Hazard Ratio
+HR <- exp(beta)
+
+#Mostrar resultado
+HR
+
+#interpretación
+cat("Hazard ratio =", round(HR,3), "\n")
+cat("El riesgo aumenta en", round((HR-1)*100,1), "% respecto al grupo de referencia.")
+```
+
+#EJERCICIO 2
+
+```{r}
+#Hazard Ratio reportado
+HR <- 0.75
+
+#Mostrar resultado
+HR
+
+#interpretación
+cat("Hazard ratio =", round(HR,3), "\n")
+cat("El programa reduce el riesgo en", round((1-HR)*100,1), "% respecto al grupo de control.")
+```
+
+#EJERCICIO 3
+
+```{r}
+#Hazard Ratio reportado
+HR <- 1.35
+
+#Incremento porcentual del riesgo
+incremento <- (HR-1)*100
+
+#Mostrar resultado
+cat("Hazard ratio =", HR, "\n")
+cat("Incremento del riesgo =", incremento, "%\n")
+
+#interpretación
+cat("Hazard ratio =", round(HR,3), "\n")
+cat("Los pacientes presentan", round((HR-1)*100,1), "% más riesgo de presentar el evento.")
+```
+
+#EJERCICIO 4
+
+```{r}
+#Coeficiente beta
+beta <- -1.20
+
+#Calculo del Hazard Ratio
+HR <- exp(beta)
+
+#Mostrar resultado
+HR
+
+#interpretación
+cat("Hazard ratio =", round(HR,3), "\n")
+cat("Existe una reducción del riesgo de", round((1-HR)*100,1), "%.")
+```
+
+#EJERCICIO 5
+
+```{r}
+#Hazard Ratio reportado
+HR <- 2.10
+
+#Incremento porcentual del riesgo
+incremento <- (HR-1)*100
+
+#Mostrar resultado
+cat("Hazard ratio =", HR, "\n")
+cat("Incremento del riesgo =", incremento, "%\n")
+
+#interpretación
+cat("Hazard ratio =", round(HR,3), "\n")
+cat("El riesgo aumenta en", round((HR-1)*100,1), "%.")
+```
